@@ -1,0 +1,20 @@
+image_width: 1920
+image_height: 1080
+camera_name: narrow_stereo sn AU3S-2315-0019
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1674.869767, 0.000000, 1267.416212, 0.000000, 1675.379469, 913.736571, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.040274, 0.004171, -0.001866, -0.006316, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1658.894139, 0.000000, 1264.720331, 0.000000, 0.000000, 1664.534318, 914.719446, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
